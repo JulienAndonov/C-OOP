@@ -4,23 +4,28 @@ using System.Linq;
 
 namespace P01_RawData
 {
-    
+
     public class RawData
     {
         static void Main(string[] args)
         {
-            
-            CarParser carParser = new CarParser();
-            int numOfCars = int.Parse(Console.ReadLine());
+            List<Car> cars = new List<Car>();
+            int lines = int.Parse(Console.ReadLine());
+            EngineFactory engineFactory = new EngineFactory();
+            CarCatalog carCatalog = new CarCatalog(engineFactory);
 
-            List<Car> cars = carParser.Parse(numOfCars);
+
+            for (int i = 0; i < lines; i++)
+            {
+                string[] parameters = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                carCatalog.Add(parameters);
+            }
 
             string command = Console.ReadLine();
-
             if (command == "fragile")
             {
-                List<string> fragile = cars
-                    .Where(x => x.CargoType == "fragile" && x.tires.Any(y => y.ke < 1))
+                List<string> fragile = carCatalog.GetCars()
+                    .Where(x => x.Cargo.Type == "fragile" && x.Tires.Any(y => y.Pressure < 1))
                     .Select(x => x.Model)
                     .ToList();
 
@@ -28,8 +33,8 @@ namespace P01_RawData
             }
             else
             {
-                List<string> flamable = cars
-                    .Where(x => x.CargoType == "flamable" && x.EnginePower > 250)
+                List<string> flamable = carCatalog.GetCars()
+                    .Where(x => x.Cargo.Type == "flamable" && x.Engine.Power > 250)
                     .Select(x => x.Model)
                     .ToList();
 

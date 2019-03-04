@@ -4,13 +4,11 @@ using System.Text;
 
 namespace P01_RawData
 {
-    public class CarWriter
+    public class EngineFactory
     {
-
-        public void Write(Car car)
+        public Engine Create(int power, int speed)
         {
-
+            return new Engine(speed, power);
         }
-
     }
 }

@@ -1,46 +1,64 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-public class Person
+﻿namespace P07_FamilyTree
 {
-    private string name;
-    private string birthday;
-    private List<Person> parents;
-    private List<Person> children;
+    using System.Collections.Generic;
+    using System.Text;
 
-    public Person()
+    public class Person
     {
-        this.Children = new List<Person>();
-        this.Parents = new List<Person>();
-    }
+        public Person(string name, string birthday)
+        {
+            this.Name = name;
+            this.Birthday = birthday;
+        }
 
-    public string Name
-    {
-        get { return name; }
-        set { name = value; }
-    }
+        public string Name { get; set; }
 
-    public string Birthday
-    {
-        get { return birthday; }
-        set { birthday = value; }
-    }
+        public string Birthday { get; set; }
 
-    public List<Person> Parents
-    {
-        get { return parents; }
-        set { parents = value; }
-    }
+        public List<Person> Parents { get; set; } = new List<Person>();
 
-    public List<Person> Children
-    {
-        get { return children; }
-        set { children = value; }
-    }
+        public List<Person> Children { get; set; } = new List<Person>();
 
-    public override string ToString()
-    {
-        return $"{this.Name} {this.Birthday}";
+        public override string ToString()
+        {
+            var information = new StringBuilder();
+            information.AppendLine($"{Name} {Birthday}");
+            information.AppendLine("Parents:");
+
+            if (Parents.Count > 0)
+            {
+                foreach (var parent in Parents)
+                {
+                    information.AppendLine($"{parent.Name} {parent.Birthday}");
+                }
+            }
+
+            if (Children.Count > 0)
+            {
+                information.AppendLine("Children:");
+
+                for (int i = 0; i < Children.Count; i++)
+                {
+                    if (i < Children.Count - 1)
+                    {
+                        information.AppendLine($"{Children[i].Name} " +
+                            $"{Children[i].Birthday}");
+                    }
+
+                    else
+                    {
+                        information.Append($"{Children[i].Name} " +
+                            $"{Children[i].Birthday}");
+                    }
+                }
+            }
+
+            else
+            {
+                information.Append("Children:");
+            }
+
+            return information.ToString();
+        }
     }
 }

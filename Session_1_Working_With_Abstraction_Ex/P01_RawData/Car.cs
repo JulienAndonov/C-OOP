@@ -7,25 +7,17 @@ namespace P01_RawData
 {
     public class Car
     {
-        public Car(string model, int engineSpeed, int enginePower, int cargoWeight, string cargoType, double tire1Pressure, int tire1Age, double tire2Pressure, int tire2Age, double tire3Pressure, int tire3age, double tire4Pressure, int tire4age)
+        public Car(string model, Engine engine, Cargo cargo, Tire[] tires)
         {
             this.Model = model;
-            this.EngineSpeed = engineSpeed;
-            this.EnginePower = enginePower;
-            this.CargoWeight = cargoWeight;
-            this.CargoType = cargoType;
-            this.tires = new Dictionary<double, int>[]
-            {
-                
-            };
+            this.Engine = engine;
+            this.Cargo = cargo;
+            this.Tires = tires;
         }
 
-
+        public Engine Engine { get; private set; }
+        public Cargo Cargo { get; private set; }
+        public Tire[] Tires { get; private set; }
         public string Model { get; private set; }
-        public int EngineSpeed { get; private set; }
-        public int EnginePower { get; private set; }
-        public int CargoWeight { get; private set; }
-        public string CargoType { get; private set; }
-        public Dictionary<double, int>[] tires;
     }
 }
