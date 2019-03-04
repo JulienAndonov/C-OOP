@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\bin\Debug\netcoreapp2.1\P03_Shopping_Spree.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\bin\Debug\netcoreapp2.1\P03_Shopping_Spree.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\bin\Debug\netcoreapp2.1\P03_Shopping_Spree.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\bin\Debug\netcoreapp2.1\P03_Shopping_Spree.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\bin\Debug\netcoreapp2.1\P03_Shopping_Spree.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Encapsulation_Ex\P03_Shopping_Spree\obj\Debug\netcoreapp2.1\P03_Shopping_Spree.pdb
