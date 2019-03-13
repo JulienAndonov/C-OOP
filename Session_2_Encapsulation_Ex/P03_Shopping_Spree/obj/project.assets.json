@@ -694,9 +694,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\University\\SoftUni\\C#OOP\\C-OOP\\Session_2_Encapsulation_Ex\\P03_Shopping_Spree\\P03_Shopping_Spree.csproj",
-      "projectName": "P03_Shopping_Spree",
-      "projectPath": "F:\\University\\SoftUni\\C#OOP\\C-OOP\\Session_2_Encapsulation_Ex\\P03_Shopping_Spree\\P03_Shopping_Spree.csproj",
+      "projectUniqueName": "F:\\University\\SoftUni\\C#OOP\\C-OOP\\Session_2_Encapsulation_Ex\\P03_Shopping_Spree\\P04_Shopping_Spree.csproj",
+      "projectName": "P04_Shopping_Spree",
+      "projectPath": "F:\\University\\SoftUni\\C#OOP\\C-OOP\\Session_2_Encapsulation_Ex\\P03_Shopping_Spree\\P04_Shopping_Spree.csproj",
       "packagesPath": "C:\\Users\\Julien\\.nuget\\packages\\",
       "outputPath": "F:\\University\\SoftUni\\C#OOP\\C-OOP\\Session_2_Encapsulation_Ex\\P03_Shopping_Spree\\obj\\",
       "projectStyle": "PackageReference",

@@ -9,7 +9,7 @@ namespace P03_Shopping_Spree
         public Product(string name, int cost)
         {
             this.name = name;
-            this.cost = cost;
+            this.Cost = cost;
         }
 
 

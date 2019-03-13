@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\bin\Debug\netcoreapp2.1\P01_Person.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\bin\Debug\netcoreapp2.1\P01_Person.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\bin\Debug\netcoreapp2.1\P01_Person.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\bin\Debug\netcoreapp2.1\P01_Person.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\bin\Debug\netcoreapp2.1\P01_Person.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\Session_2_Inheritance_Ex\obj\Debug\netcoreapp2.1\P01_Person.pdb
