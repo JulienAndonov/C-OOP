@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P02_Book_Shop\\P02_Book_Shop.csproj",
-      "projectName": "P02_Book_Shop",
-      "projectPath": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P02_Book_Shop\\P02_Book_Shop.csproj",
+      "projectUniqueName": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P04_Radio_Database\\P04_Radio_Database.csproj",
+      "projectName": "P04_Radio_Database",
+      "projectPath": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P04_Radio_Database\\P04_Radio_Database.csproj",
       "packagesPath": "C:\\Users\\JulienValerievAndono\\.nuget\\packages\\",
-      "outputPath": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P02_Book_Shop\\obj\\",
+      "outputPath": "C:\\University\\C#IBM\\C#Advanced\\C-OOP\\Session_2_Inheritance_Ex\\P04_Radio_Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

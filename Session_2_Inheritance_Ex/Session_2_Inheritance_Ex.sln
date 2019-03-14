@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_Person", "Session_2_Inh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_Book_Shop", "P02_Book_Shop\P02_Book_Shop.csproj", "{E8BBECCB-C2C4-44EB-96BA-C9988A5C6C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_Mankind", "P03_Mankind\P03_Mankind.csproj", "{0F9F3DEE-6793-48CF-AEA6-0AC111D5CFF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03_Mankind", "P03_Mankind\P03_Mankind.csproj", "{0F9F3DEE-6793-48CF-AEA6-0AC111D5CFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_Radio_Database", "P04_Radio_Database\P04_Radio_Database.csproj", "{5855C8EF-F4E0-4AD7-9CF9-6F7217035269}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0F9F3DEE-6793-48CF-AEA6-0AC111D5CFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F9F3DEE-6793-48CF-AEA6-0AC111D5CFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F9F3DEE-6793-48CF-AEA6-0AC111D5CFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5855C8EF-F4E0-4AD7-9CF9-6F7217035269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5855C8EF-F4E0-4AD7-9CF9-6F7217035269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5855C8EF-F4E0-4AD7-9CF9-6F7217035269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5855C8EF-F4E0-4AD7-9CF9-6F7217035269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

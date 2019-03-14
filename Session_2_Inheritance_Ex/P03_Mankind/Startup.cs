@@ -7,34 +7,50 @@ namespace P03_Mankind
         public static void Main(string[] args)
         {
             try
+
             {
-                for (int i = 1; i < 3; i++)
-                {
-                    var input = Console.ReadLine().Split(" ");
-                    var firstName = input[0];
-                    var lastName = input[1];
 
-                    if (i % 2 != 0)
-                    {
-                        var facultyNumber = input[2];
-                        var currentStudent = new Student(firstName, lastName, facultyNumber);
-                        Console.WriteLine(currentStudent.ToString());
-                    }
-                    else
-                    {
-                        var weekSalary = int.Parse(input[2]);
-                        var hoursPerDay = int.Parse(input[3]);
-                        var currentWorker = new Worker(firstName, lastName, weekSalary, hoursPerDay);
-                        Console.WriteLine(currentWorker.ToString());
+                var firstInput = Console.ReadLine().Split();
 
-                    }
-                }
+                string firstName = firstInput[0];
+
+                string lastName = firstInput[1];
+
+                string facultyNumber = firstInput[2];
+
+                var student = new Student(firstName, lastName, facultyNumber);
+
+
+
+                var secondInput = Console.ReadLine().Split();
+
+                firstName = secondInput[0];
+
+                lastName = secondInput[1];
+
+                decimal weekSalary = decimal.Parse(secondInput[2]);
+
+                decimal workingHours = decimal.Parse(secondInput[3]);
+
+                var worker = new Worker(firstName, lastName, weekSalary, workingHours);
+
+
+
+                Console.WriteLine(student);
+
+                Console.WriteLine(worker);
+
             }
-            catch (ArgumentException ex)
+
+
+
+            catch (ArgumentException exception)
+
             {
-                Console.WriteLine(ex.Message);
-            }
 
+                Console.WriteLine(exception.Message);
+
+            }
         }
     }
 }

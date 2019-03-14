@@ -1,12 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+
 
 namespace P03_Mankind
 {
     public class Student : Human
     {
-        public string FacultyNumber
+        public Student(string firstName, string lastName, string facultyNumber) : base(firstName, lastName)
+        {
+            this.FacultyNumber = facultyNumber;
+        }
+
+        private string FacultyNumber
         {
             get
             {
@@ -14,7 +21,7 @@ namespace P03_Mankind
             }
             set
             {
-                if (value.Length <= 4 || value.Length >= 11)
+                if (value.Any(s => !char.IsLetterOrDigit(s)) || value.Length < 5 || value.Length > 10)
                 {
                     throw new ArgumentException("Invalid faculty number!");
                 }
@@ -22,16 +29,10 @@ namespace P03_Mankind
             }
         }
 
-        public Student(string firstName, string lastName, string facultyNumber) : base(firstName, lastName)
-        {
-            this.FacultyNumber = facultyNumber;
-        }
-
         public override string ToString()
         {
             StringBuilder studentStringed = new StringBuilder();
-            studentStringed.AppendLine($"First Name: {this.FirstName}");
-            studentStringed.AppendLine($"Last Name: {this.LastName}");
+            studentStringed.AppendLine(base.ToString());
             studentStringed.AppendLine($"Faculty number: {this.FacultyNumber}");
             return studentStringed.ToString();
         }

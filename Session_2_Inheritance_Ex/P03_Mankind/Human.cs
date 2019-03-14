@@ -13,7 +13,7 @@ namespace P03_Mankind
             this.LastName = lastName;
         }
 
-        public string FirstName
+        protected string FirstName
         {
             get
             {
@@ -28,7 +28,7 @@ namespace P03_Mankind
         }
 
 
-        public string LastName
+        protected string LastName
         {
             get
             {
@@ -43,16 +43,28 @@ namespace P03_Mankind
         }
 
 
-        public static void validateName(string value, int charCount,string attribute)
+        public static void validateName(string name, int minLength,string attribute)
         {
-            if (!char.IsUpper(value[0]))
+            if (!char.IsUpper(name[0]))
             {
                 throw new ArgumentException($"Expected upper case letter! Argument: {attribute}");
             }
-            if (!(value.Length >= charCount))
+            if (name.Length < minLength)
             {
-                throw new ArgumentException($"Expected length at least {charCount} symbols! Argument: {attribute}");
+                throw new ArgumentException($"Expected length at least {minLength} symbols! Argument: {attribute}");
             }
+        }
+
+
+        public override string ToString()
+
+        {
+
+            var stringBuilder = new StringBuilder();
+            stringBuilder.AppendLine($"First Name: {FirstName}");
+            stringBuilder.Append($"Last Name: {LastName}");
+            return stringBuilder.ToString();
+
         }
 
         private string firstName;
