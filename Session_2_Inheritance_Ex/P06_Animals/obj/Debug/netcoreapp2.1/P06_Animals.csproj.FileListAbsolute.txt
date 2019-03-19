@@ -1,0 +1,10 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\bin\Debug\netcoreapp2.1\P06_Animals.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\bin\Debug\netcoreapp2.1\P06_Animals.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\bin\Debug\netcoreapp2.1\P06_Animals.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\bin\Debug\netcoreapp2.1\P06_Animals.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\bin\Debug\netcoreapp2.1\P06_Animals.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\obj\Debug\netcoreapp2.1\P06_Animals.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\obj\Debug\netcoreapp2.1\P06_Animals.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\obj\Debug\netcoreapp2.1\P06_Animals.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\obj\Debug\netcoreapp2.1\P06_Animals.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P06_Animals\obj\Debug\netcoreapp2.1\P06_Animals.pdb

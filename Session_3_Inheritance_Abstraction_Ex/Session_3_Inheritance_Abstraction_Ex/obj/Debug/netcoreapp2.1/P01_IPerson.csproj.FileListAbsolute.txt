@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\bin\Debug\netcoreapp2.1\P01_IPerson.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\bin\Debug\netcoreapp2.1\P01_IPerson.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\bin\Debug\netcoreapp2.1\P01_IPerson.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\bin\Debug\netcoreapp2.1\P01_IPerson.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\bin\Debug\netcoreapp2.1\P01_IPerson.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\Session_3_Inheritance_Abstraction_Ex\obj\Debug\netcoreapp2.1\P01_IPerson.pdb

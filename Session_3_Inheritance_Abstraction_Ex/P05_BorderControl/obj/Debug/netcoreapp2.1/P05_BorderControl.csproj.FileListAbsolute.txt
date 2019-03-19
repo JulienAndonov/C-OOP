@@ -1,0 +1,10 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\bin\Debug\netcoreapp2.1\P05_BorderControl.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\bin\Debug\netcoreapp2.1\P05_BorderControl.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\bin\Debug\netcoreapp2.1\P05_BorderControl.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\bin\Debug\netcoreapp2.1\P05_BorderControl.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\bin\Debug\netcoreapp2.1\P05_BorderControl.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\obj\Debug\netcoreapp2.1\P05_BorderControl.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\obj\Debug\netcoreapp2.1\P05_BorderControl.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\obj\Debug\netcoreapp2.1\P05_BorderControl.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\obj\Debug\netcoreapp2.1\P05_BorderControl.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P05_BorderControl\obj\Debug\netcoreapp2.1\P05_BorderControl.pdb

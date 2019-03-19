@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\bin\Debug\netcoreapp2.1\P07_Food_Shortage.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\bin\Debug\netcoreapp2.1\P07_Food_Shortage.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\bin\Debug\netcoreapp2.1\P07_Food_Shortage.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\bin\Debug\netcoreapp2.1\P07_Food_Shortage.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\bin\Debug\netcoreapp2.1\P07_Food_Shortage.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P07_Food_Shortage\obj\Debug\netcoreapp2.1\P07_Food_Shortage.csprojAssemblyReference.cache

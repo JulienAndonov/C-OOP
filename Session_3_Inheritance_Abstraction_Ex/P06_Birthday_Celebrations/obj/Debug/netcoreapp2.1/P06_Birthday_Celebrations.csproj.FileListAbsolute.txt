@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\bin\Debug\netcoreapp2.1\P06_Birthday_Celebrations.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\bin\Debug\netcoreapp2.1\P06_Birthday_Celebrations.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\bin\Debug\netcoreapp2.1\P06_Birthday_Celebrations.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\bin\Debug\netcoreapp2.1\P06_Birthday_Celebrations.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\bin\Debug\netcoreapp2.1\P06_Birthday_Celebrations.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P06_Birthday_Celebrations\obj\Debug\netcoreapp2.1\P06_Birthday_Celebrations.csprojAssemblyReference.cache

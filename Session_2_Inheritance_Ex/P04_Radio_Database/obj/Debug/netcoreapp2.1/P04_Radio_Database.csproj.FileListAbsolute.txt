@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\bin\Debug\netcoreapp2.1\P04_Radio_Database.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\bin\Debug\netcoreapp2.1\P04_Radio_Database.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\bin\Debug\netcoreapp2.1\P04_Radio_Database.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\bin\Debug\netcoreapp2.1\P04_Radio_Database.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\bin\Debug\netcoreapp2.1\P04_Radio_Database.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_2_Inheritance_Ex\P04_Radio_Database\obj\Debug\netcoreapp2.1\P04_Radio_Database.pdb

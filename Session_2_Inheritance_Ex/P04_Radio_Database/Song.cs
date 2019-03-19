@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using P04_Radio_Database.Exceptions;
-
-namespace P04_Radio_Database
+﻿namespace P04_Radio_Database
 {
+    using P04_Radio_Database.Exceptions;
+
     public class Song
     {
         private string artistName;
@@ -13,7 +9,13 @@ namespace P04_Radio_Database
         private int minutes;
         private int seconds;
 
-
+        public Song(string artistName, string songName, int minutes, int seconds)
+        {
+            this.ArtistName = artistName;
+            this.SongName = songName;
+            this.Minutes = minutes;
+            this.Seconds = seconds;
+        }
 
         public string ArtistName
         {
@@ -24,6 +26,7 @@ namespace P04_Radio_Database
                 {
                     throw new InvalidArtistNameException();
                 }
+
                 this.artistName = value;
             }
         }
@@ -35,7 +38,7 @@ namespace P04_Radio_Database
             {
                 if (value.Length < 3 || value.Length > 30)
                 {
-                    throw new InvalidSongLengthException();
+                    throw new InvalidSongNameException();
                 }
 
                 this.songName = value;
@@ -68,14 +71,6 @@ namespace P04_Radio_Database
 
                 this.seconds = value;
             }
-        }
-
-        public Song(string ArtistName, string SongName, int Minutes, int Seconds)
-        {
-            this.artistName = ArtistName;
-            this.songName = SongName;
-            this.minutes = Minutes;
-            this.seconds = Seconds;
         }
     }
 }

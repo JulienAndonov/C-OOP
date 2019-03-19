@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\bin\Debug\netcoreapp2.1\P03_Ferrari.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\bin\Debug\netcoreapp2.1\P03_Ferrari.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\bin\Debug\netcoreapp2.1\P03_Ferrari.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\bin\Debug\netcoreapp2.1\P03_Ferrari.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\bin\Debug\netcoreapp2.1\P03_Ferrari.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P03_Ferrari\obj\Debug\netcoreapp2.1\P03_Ferrari.pdb

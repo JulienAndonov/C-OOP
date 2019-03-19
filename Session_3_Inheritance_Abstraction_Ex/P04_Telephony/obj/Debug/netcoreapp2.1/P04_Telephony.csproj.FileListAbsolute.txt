@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\bin\Debug\netcoreapp2.1\P04_Telephony.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\bin\Debug\netcoreapp2.1\P04_Telephony.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\bin\Debug\netcoreapp2.1\P04_Telephony.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\bin\Debug\netcoreapp2.1\P04_Telephony.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\bin\Debug\netcoreapp2.1\P04_Telephony.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_3_Inheritance_Abstraction_Ex\P04_Telephony\obj\Debug\netcoreapp2.1\P04_Telephony.pdb
