@@ -7,22 +7,48 @@ namespace P01_Vehicles
 {
     public abstract class Vehicle
     {
-        public double fuelQuantity { get; set; }
-        public double fuelConsumptionPerKm { get; set; }
 
-        public Vehicle(double FuelQuantity, double FuelConsumptionPerKm)
+        public Vehicle(double FuelQuantity, double FuelConsumptionPerKm, double TankCapacity)
         {
-            this.fuelQuantity = FuelQuantity;
-            this.fuelConsumptionPerKm = FuelConsumptionPerKm;
+            this.TankCapacity = TankCapacity;
+            this.FuelQuantity = FuelQuantity;
+            this.FuelConsumptionPerKm = FuelConsumptionPerKm;
+            
         }
 
-
-        public virtual string Drive(double distance)
+        public double FuelQuantity
         {
-            var neededFuel = this.fuelConsumptionPerKm * distance;
-            if (fuelQuantity >= neededFuel)
+            get => this.fuelQuantity;
+            set
             {
-                this.fuelQuantity -= neededFuel;
+                if (value <= this.TankCapacity)
+                {
+                    this.fuelQuantity = value;
+                }
+                else
+                {
+
+                    this.fuelQuantity = 0;
+                }
+            }
+        }
+
+        public double TankCapacity
+        {
+            get; set;
+        }
+
+        public double FuelConsumptionPerKm { get; set; }
+
+
+
+        public virtual string Drive(double distance, double consumption)
+        {
+            var neededFuel = consumption * distance;
+
+            if (this.FuelQuantity >= neededFuel)
+            {
+                this.FuelQuantity -= neededFuel;
                 return $"{this.GetType().Name} travelled {distance} km";
             }
 
@@ -30,12 +56,27 @@ namespace P01_Vehicles
         }
 
 
-        public abstract void Refuel(double amount);
+        public virtual void Refuel(double amount)
+        {
+            if (amount <= 0)
+            {
+                throw new ArgumentException("Fuel must be a positive number");
+            }
+
+
+            if (this.FuelQuantity + amount > this.TankCapacity)
+            {
+                throw new ArgumentException($"Cannot fit {amount} fuel in the tank");
+
+            }
+            this.FuelQuantity += amount;
+        }
 
         public override string ToString()
         {
-            return $"{this.GetType().Name}: {this.fuelQuantity:F2}";
+            return $"{this.GetType().Name}: {this.FuelQuantity:F2}";
         }
 
+        private double fuelQuantity;
     }
 }

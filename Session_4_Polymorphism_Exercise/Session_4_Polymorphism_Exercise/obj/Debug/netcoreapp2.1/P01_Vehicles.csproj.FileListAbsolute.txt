@@ -9,3 +9,14 @@ C:\University\C#IBM\C#Advanced\C-OOP\Session_4_Polymorphism_Exercise\Session_4_P
 C:\University\C#IBM\C#Advanced\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.AssemblyInfo.cs
 C:\University\C#IBM\C#Advanced\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.dll
 C:\University\C#IBM\C#Advanced\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\P01_Vehicles.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\P01_Vehicles.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\P01_Vehicles.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\P01_Vehicles.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\P01_Vehicles.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\Session_4_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\P01_Vehicles.pdb

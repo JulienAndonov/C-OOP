@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\bin\Debug\netcoreapp2.1\P01_Logger.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\bin\Debug\netcoreapp2.1\P01_Logger.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\bin\Debug\netcoreapp2.1\P01_Logger.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\bin\Debug\netcoreapp2.1\P01_Logger.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\bin\Debug\netcoreapp2.1\P01_Logger.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\P01_Logger\obj\Debug\netcoreapp2.1\P01_Logger.pdb
