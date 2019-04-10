@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\bin\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_5_SOLID_Exercise\Session_5_Polymorphism_Exercise\obj\Debug\netcoreapp2.1\Session_5_Polymorphism_Exercise.pdb

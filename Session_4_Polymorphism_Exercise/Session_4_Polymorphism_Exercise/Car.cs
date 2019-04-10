@@ -7,15 +7,15 @@ namespace P01_Vehicles
     public class Car : Vehicle
     {
 
-        public Car(double quantity, double consumption) : base(quantity, consumption)
+        public Car(double quantity, double consumption,double capacity) : base(quantity, consumption,capacity)
         {
-            this.fuelConsumptionPerKm += 0.9;
+            this.FuelConsumptionPerKm += 0.9;
 
         }
 
         public override void Refuel(double amount)
         {
-            this.fuelQuantity += amount;
+            base.Refuel(amount);
         }
     }
 }

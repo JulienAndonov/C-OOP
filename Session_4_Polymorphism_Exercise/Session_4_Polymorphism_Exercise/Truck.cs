@@ -7,15 +7,23 @@ namespace P01_Vehicles
     public class Truck : Vehicle
     {
 
-        public Truck(double quantity, double consumption) : base(quantity, consumption)
+        public Truck(double quantity, double consumption, double tankCapacity) : base(quantity, consumption, tankCapacity)
         {
-            this.fuelConsumptionPerKm += 1.6;
+            this.FuelConsumptionPerKm += 1.6;
         }
 
 
         public override void Refuel(double amount)
         {
-            this.fuelQuantity += (amount * 0.95);
+            if(amount > this.TankCapacity)
+            {
+                Console.WriteLine($"Cannot fit {amount} fuel in the tank");
+            }
+            else
+            {
+                base.Refuel(amount * 0.95);
+            }
+            
         }
     }
 }

@@ -1,0 +1,11 @@
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\bin\Debug\netcoreapp2.1\P03_Wild_Farm.deps.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\bin\Debug\netcoreapp2.1\P03_Wild_Farm.runtimeconfig.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\bin\Debug\netcoreapp2.1\P03_Wild_Farm.runtimeconfig.dev.json
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\bin\Debug\netcoreapp2.1\P03_Wild_Farm.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\bin\Debug\netcoreapp2.1\P03_Wild_Farm.pdb
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.csprojAssemblyReference.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.csproj.CoreCompileInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.AssemblyInfoInputs.cache
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.AssemblyInfo.cs
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.dll
+F:\University\SoftUni\C#OOP\C-OOP\Session_4_Polymorphism_Exercise\P03_Animal_Farm\obj\Debug\netcoreapp2.1\P03_Wild_Farm.pdb
