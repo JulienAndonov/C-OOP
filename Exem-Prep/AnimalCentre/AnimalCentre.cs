@@ -1,6 +1,7 @@
 ﻿using AnimalCentre.Models.Procedures;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using AnimalCentre.Core.Contracts;
 using AnimalCentre.Core.Factories;
@@ -19,7 +20,7 @@ namespace AnimalCentre
         private IProcedure nailTrim;
         private IProcedure play;
         private IProcedure dentailCare;
-        private Dictionary<string, List<IAnimal>> owners;
+        private Dictionary<string, List<string>> owners;
 
 
 
@@ -33,7 +34,7 @@ namespace AnimalCentre
             this.nailTrim = new NailTrim();
             this.play = new Play();
             this.dentailCare = new DentalCare();
-            this.owners = new Dictionary<string, List<IAnimal>>();
+            this.owners = new Dictionary<string, List<string>>();
         }
 
 
@@ -41,7 +42,7 @@ namespace AnimalCentre
         {
             IAnimal animal = animalFactory.Create(type, name, energy, happiness, procedureTime);
 
-            if (this.Hotel.Animals.ContainsKey(name))
+            if (this.hotel.Animals.ContainsKey(name))
             {
                 throw new ArgumentException($"Animal {name} already exist");
             }
@@ -52,6 +53,7 @@ namespace AnimalCentre
 
         public string Chip(string name, int procedureTime)
         {
+            CheckIfExists(name);
             chip.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} had chip procedure";
 
@@ -59,12 +61,14 @@ namespace AnimalCentre
 
         public string Vaccinate(string name, int procedureTime)
         {
+            CheckIfExists(name);
             vaccinate.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} had vaccination procedure";
         }
 
         public string Fitness(string name, int procedureTime)
         {
+            CheckIfExists(name);
             fitness.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} had fitness procedure";
 
@@ -72,33 +76,38 @@ namespace AnimalCentre
 
         public string Play(string name, int procedureTime)
         {
+            CheckIfExists(name);
             play.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} was playing for {procedureTime} hours";
         }
 
         public string DentalCare(string name, int procedureTime)
         {
+            CheckIfExists(name);
             dentailCare.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} had dental care procedure";
         }
 
         public string NailTrim(string name, int procedureTime)
         {
+            CheckIfExists(name);
             nailTrim.DoService(this.hotel.Animals[name], procedureTime);
             return $"{name} had nail trim procedure";
         }
 
         public string Adopt(string animalName, string owner)
         {
+            CheckIfExists(animalName);
             IAnimal animal = this.hotel.Animals[animalName];
 
 
             if (!this.owners.ContainsKey(owner))
             {
-                this.owners[owner] = new List<IAnimal>();
+                this.owners[owner] = new List<string>();
             }
 
             this.hotel.Adopt(animalName, owner);
+            this.owners[owner].Add(animal.Name);
 
             if (animal.IsChipped)
             {
@@ -108,6 +117,8 @@ namespace AnimalCentre
             {
                 return $"{owner} adopted animal without chip";
             }
+
+            
         }
 
         public string History(string type)
@@ -137,8 +148,27 @@ namespace AnimalCentre
             return result;
         }
 
+        public string GetOwnersDetails()
+        {
+            StringBuilder sb = new StringBuilder();
 
-        public IHotel Hotel => this.hotel;
+            foreach (var owner in this.owners.OrderBy(o => o.Key))
+            {
+                sb.AppendLine($"--Owner: {owner.Key}");
+                sb.AppendLine($"   - Adopted animals: {string.Join(" ", owner.Value)}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public void CheckIfExists(string name)
+        {
+            if (!this.hotel.Animals.ContainsKey(name))
+            {
+                throw new ArgumentException($"Animal {name} does not exist");
+            }
+
+        }
 
     }
 }

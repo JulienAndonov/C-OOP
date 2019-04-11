@@ -12,6 +12,7 @@ namespace AnimalCentre.Models.Procedures
             base.DoService(animal,procedureTime);
             animal.Happiness -= 3;
             animal.Energy += 10;
+            this.ProcedureHistory.Add(animal);
         }
     }
 }

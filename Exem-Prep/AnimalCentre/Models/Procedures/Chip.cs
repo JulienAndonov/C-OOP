@@ -14,10 +14,11 @@ namespace AnimalCentre.Models.Procedures
                 throw new ArgumentException($"{animal.Name} is already chipped");
             }
 
-            base.DoService(animal,procedureTime);
+            base.DoService(animal, procedureTime);
 
             animal.Happiness -= 5;
             animal.IsChipped = true;
+            this.ProcedureHistory.Add(animal);
         }
     }
 }

@@ -9,13 +9,9 @@ namespace AnimalCentre.Models.Procedures
 {
     public abstract class Procedure : IProcedure
     {
-
-        private AnimalCentre animalCentre;
-
         protected Procedure()
         {
             this.ProcedureHistory = new List<IAnimal>();
-            this.animalCentre = new AnimalCentre();
         }
 
         protected ICollection<IAnimal> ProcedureHistory { get; set; }
@@ -28,17 +24,13 @@ namespace AnimalCentre.Models.Procedures
 
             foreach (var animal in this.ProcedureHistory)
             {
-                sb.AppendLine($"    - {animal.Name} - Happiness: {animal.Happiness} - Energy: {animal.Energy}");
+                sb.AppendLine(animal.ToString().TrimEnd());
             }
             return sb.ToString().TrimEnd();
         }
 
         public virtual void DoService(IAnimal animal, int procedureTime)
         {
-            if (this.animalCentre.Hotel.Animals.ContainsKey(animal.Name))
-            {
-                throw new ArgumentException($"Animal {animal.Name} does not exist");
-            }
             if (procedureTime > animal.ProcedureTime)
             {
                 throw new ArgumentException("Animal doesn't have enough procedure time");
