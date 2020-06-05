@@ -37,10 +37,6 @@ namespace P01_Logger.Core
                 input = Console.ReadLine();
             }
 
-
-
-
-
             this.commandInterpreter.PrintInfo();
 
         }

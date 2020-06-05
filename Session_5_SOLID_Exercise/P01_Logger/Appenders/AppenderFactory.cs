@@ -17,7 +17,7 @@ namespace P01_Logger.Appenders
                 case "consoleappender":
                     return new ConsoleAppender(layout);
                 case "fileappender":
-                    return new FileAppender(layout, new LogFile());
+                    return new FileAppender(layout, new LogFile(@"..\..\..\log.txt"));
                 default:
                     throw new ArgumentException($"Invalid appender type: {type}");
             }

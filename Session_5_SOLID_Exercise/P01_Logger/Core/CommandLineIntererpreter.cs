@@ -40,8 +40,6 @@ namespace P01_Logger.Core
             IAppender appender = this.appenderFactory.CreateAppender(typeAppender, layout);
             appender.ReportLevel = reportLevel;
             appenders.Add(appender);
-
-
         }
 
         public void AddReport(string[] args)
@@ -60,7 +58,12 @@ namespace P01_Logger.Core
 
         public void PrintInfo()
         {
+            Console.WriteLine("Logger info");
 
+            foreach(var appender in appenders)
+            {
+                Console.WriteLine(appender);
+            }
         }
     }
 }

@@ -4,24 +4,26 @@ using P01_Logger.Loggers.Enums;
 
 namespace P01_Logger.Appenders
 {
-    public class ConsoleAppender : IAppender
+    public class ConsoleAppender : Appender
     {
 
-        public ILayout layout { get; }
-
-        public ConsoleAppender(ILayout layout)
+        public ConsoleAppender(ILayout layout) : base(layout)
         {
-            this.layout = layout;
         }
 
-        public ReportLevel ReportLevel { get; set; }
-
-        public void Append(string dateTime, ReportLevel reportLevel, string message)
+        public override void Append(string dateTime, ReportLevel reportLevel, string message)
         {
             if(this.ReportLevel <= reportLevel)
             {
-                Console.WriteLine(String.Format(this.layout.Format, dateTime, reportLevel, message));
+                Console.WriteLine(String.Format(this.Layout.Format, dateTime, reportLevel, message));
+                this.MessageCount++;
             }
+        }
+
+        public override string ToString()
+        {
+            var stringResult = $"Appender type: {this.GetType().Name}, Layout type: {this.Layout.GetType().Name}, Report level: {this.ReportLevel}, Messeges appended: {this.MessageCount}";
+            return stringResult;
         }
     }
 }

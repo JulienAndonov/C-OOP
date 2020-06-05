@@ -8,10 +8,9 @@ namespace P01_Logger.Appenders
 {
     public interface IAppender
     {
-        ILayout layout { get;}
-
-        void Append(string dateTime,ReportLevel reportLevel,string message);
-
+        void Append(string dateTime, ReportLevel reportLevel, string message);
         ReportLevel ReportLevel { get; set; }
+        ILayout Layout { get; }
+        int MessageCount { get; }
     }
 }

@@ -6,8 +6,9 @@ namespace P01_Logger.Loggers.Contracts
 {
     public interface ILogfile
     {
-        void Write(string message);
+        void ComputeSize(string message);
         int Size { get; }
+        string Path { get; }
 
     }
 }
